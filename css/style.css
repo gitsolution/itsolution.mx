@@ -5,8 +5,8 @@
 */
 
 @charset 'UTF-8';
-
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+@import url("font-awesome.min.css");
 
 /*********************************************************************************/
 /* Basic                                                                         */
@@ -774,7 +774,7 @@
 	{
 		position: absolute;
 		left: 0em;
-		top: 3em;
+		top: 0em;
 	}
 	
 		#logo h1
@@ -787,6 +787,11 @@
 			text-decoration: none;
 			font-size: 2.8em;
 			font-weight: 600;
+		}
+		#logo img
+		{
+			 width:137px;
+			 height:120px;
 		}
 
 /*********************************************************************************/
@@ -826,7 +831,8 @@
 
 			#nav li.active a
 			{
-				background: #e95d3c;
+				/*background: #88B325;*/
+				background: #0B3266;
 				border-radius: 5px;
 				color: #FFF;
 			}
@@ -895,6 +901,36 @@
 	{
 		color: rgba(255,255,255,.7);
 	}
+	
+/*********************************************************************************/
+/* Footer-wrapper                                                                        */
+/*********************************************************************************/
+	#footer-wrapper {
+		position: relative;
+		overflow: hidden;
+		border-top: solid 2px #e5e5e5;
+	}
+
+		#footer-wrapper form input[type="text"],
+		#footer-wrapper form input[type="email"],
+		#footer-wrapper form input[type="password"],
+		#footer-wrapper form select,
+		#footer-wrapper form textarea {
+			background: #f7f7f7;
+		}
+
+			#footer-wrapper form input[type="text"]:focus,
+			#footer-wrapper form input[type="email"]:focus,
+			#footer-wrapper form input[type="password"]:focus,
+			#footer-wrapper form select:focus,
+			#footer-wrapper form textarea:focus {
+				background: #fff;
+			}
+
+		#footer-wrapper h2 {
+			padding-top: 1em;
+			text-align: center;
+		}
 	
 /*********************************************************************************/
 /* Copyright                                                                     */
@@ -981,3 +1017,54 @@
 		color: #333 !important;
 	}
 
+
+ul.icons > li {
+		position: relative;
+		padding: 2em 0 0 3em;
+	}
+
+		ul.icons > li:before {
+			position: absolute;
+			left: 0;
+			top: 2em;
+			display: block;
+			background: #878787;
+			color: #e4e4e4;
+			width: 1.65em;
+			height: 1.65em;
+			border-radius: 1.65em;
+			line-height: 1.65em;
+			text-align: center;
+			box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
+		}
+
+		ul.icons > li:first-child {
+			padding-top: 0;
+		}
+
+			ul.icons > li:first-child:before {
+				top: 0;
+			}
+
+	ol.default {
+		list-style: decimal;
+		margin-left: 1em;
+	}
+
+	ol.default li {
+		padding-left: 0.5em;
+		margin: 0.75em 0 0.75em 0;
+	}
+
+	ol.default li:first-child {
+		margin-top: 0;
+	}
+
+
+	#footer .icons {
+		margin: 0 0 2em 0 !important;
+	}
+
+	#footer .icons:last-child {
+		margin-bottom: 0;
+	}
