@@ -7,14 +7,13 @@
 @charset 'UTF-8';
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 @import url("font-awesome.min.css");
-
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
 
 	body
 	{
-		background: #202020 url(images/img01.jpg) repeat;
+		background: #112020 url(images/img01.jpg) repeat;
 	}
 
 	body,input,textarea,select
@@ -86,6 +85,7 @@
 	p, ul, ol, dl, table
 	{
 		margin-bottom: 1em;
+		text-align: justify;
 	}
 
 	header
@@ -143,7 +143,6 @@
 		{
 			margin-bottom: 0;
 		}
-
 	/* Images */
 
 		.image
@@ -292,7 +291,23 @@
 			{
 			}
 
-			
+	ul.links {
+		list-style: decimal;
+		margin-left: 1em;
+		text-align: center;
+	}
+
+		ul.links li {
+			display: inline;
+			border-left: solid 0px #d0d0d0;
+			padding-left: 1em;
+			margin-left: 1em;
+		}
+
+			ul.links li:first-child {
+				margin-left: 0;
+				padding-left: 0;
+			}
 
 	/* Buttons */
 		
@@ -892,46 +907,25 @@
 
 	#footer h2
 	{
-		padding-bottom: 1.5em;
+		padding-top: 1.5em;
 		font-size: 1.6em;
 		color: #FFF;
+		text-align: center;
 	}
 
 	#footer strong
 	{
 		color: rgba(255,255,255,.7);
 	}
-	
-/*********************************************************************************/
-/* Footer-wrapper                                                                        */
-/*********************************************************************************/
-	#footer-wrapper {
-		position: relative;
-		overflow: hidden;
-		border-top: solid 2px #e5e5e5;
+
+	a.contact
+	{
+		
+		color:  rgba(255,255,255,.4);
+		font-family: 'Roboto Condensed', sans-serif;
+		font-weight: inherit;
+		font-size: 1em;
 	}
-
-		#footer-wrapper form input[type="text"],
-		#footer-wrapper form input[type="email"],
-		#footer-wrapper form input[type="password"],
-		#footer-wrapper form select,
-		#footer-wrapper form textarea {
-			background: #f7f7f7;
-		}
-
-			#footer-wrapper form input[type="text"]:focus,
-			#footer-wrapper form input[type="email"]:focus,
-			#footer-wrapper form input[type="password"]:focus,
-			#footer-wrapper form select:focus,
-			#footer-wrapper form textarea:focus {
-				background: #fff;
-			}
-
-		#footer-wrapper h2 {
-			padding-top: 1em;
-			text-align: center;
-		}
-	
 /*********************************************************************************/
 /* Copyright                                                                     */
 /*********************************************************************************/
@@ -939,7 +933,7 @@
 	#copyright
 	{
 		position: relative;
-		padding: 3em 0em;
+		padding: 1em 0em;
 		border-top: 1px solid #303030;
 		letter-spacing: 1px;
 		text-align: center;
@@ -1017,54 +1011,71 @@
 		color: #333 !important;
 	}
 
+/*********************************************************************************/
+/* Form                                                                          */
+/*********************************************************************************/
 
-ul.icons > li {
-		position: relative;
-		padding: 2em 0 0 3em;
+	form label {
+		font-weight: 600;
+		text-transform: uppercase;
+		color: #888;
+		display: block;
+		margin: 0 0 1em 0;
 	}
 
-		ul.icons > li:before {
-			position: absolute;
-			left: 0;
-			top: 2em;
-			display: block;
-			background: #878787;
-			color: #e4e4e4;
-			width: 1.65em;
-			height: 1.65em;
-			border-radius: 1.65em;
-			line-height: 1.65em;
-			text-align: center;
-			box-shadow: 0.125em 0.175em 0 0 rgba(0, 0, 0, 0.125);
+	form input[type="text"],
+	form input[type="email"]
+	input[type="password"],
+	form select,
+	form textarea {
+		-moz-transition: background-color 0.25s ease-in-out;
+		-webkit-transition: background-color 0.25s ease-in-out;
+		-ms-transition: background-color 0.25s ease-in-out;
+		transition: background-color 0.25s ease-in-out;
+		-webkit-appearance: none;
+		display: block;
+		border: 0;
+		background: #e8e8e8;
+		width: 100%;
+		box-shadow: inset 2px 2px 0px 0px rgba(0, 0, 0, 0.1);
+		border-radius: 4px;
+		line-height: 1.25em;
+		padding: 0.75em 1em 0.75em 1em;
+	}
+
+		form input[type="text"]:focus,
+		form input[type="email"]
+		input[type="password"]:focus,
+		form select:focus,
+		form textarea:focus {
+			background: #f0f0f0;
 		}
 
-		ul.icons > li:first-child {
-			padding-top: 0;
-		}
-
-			ul.icons > li:first-child:before {
-				top: 0;
-			}
-
-	ol.default {
-		list-style: decimal;
-		margin-left: 1em;
+	form textarea {
+		min-height: 10em;
 	}
 
-	ol.default li {
-		padding-left: 0.5em;
-		margin: 0.75em 0 0.75em 0;
+	form .formerize-placeholder {
+		color: #555 !important;
 	}
 
-	ol.default li:first-child {
-		margin-top: 0;
+	form ::-webkit-input-placeholder {
+		color: #555 !important;
+		line-height: 1.35em;
 	}
 
-
-	#footer .icons {
-		margin: 0 0 2em 0 !important;
+	form :-moz-placeholder {
+		color: #555 !important;
 	}
 
-	#footer .icons:last-child {
-		margin-bottom: 0;
+	form ::-moz-placeholder {
+		color: #555 !important;
+	}
+
+	form :-ms-input-placeholder {
+		color: #555 !important;
+	}
+
+	form ::-moz-focus-inner {
+		border: 0;
 	}
