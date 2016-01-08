@@ -81,7 +81,7 @@
 
 		#titleBar .title
 		{
-			display: block;
+			display: none;
 			color: #fff;
 			text-align: center;
 			line-height: 44px;
@@ -164,11 +164,17 @@
 		display: none;
 	}
 	
+	#logo a
+	{
+		display: none;
+	}
+
 	#nav
 	{
 		display: none;
 	}
-	
+
+
 
 /*********************************************************************************/
 /* Banner                                                                        */
@@ -232,3 +238,4 @@
 		float: none;
 		width: 100%;
 	}
+
