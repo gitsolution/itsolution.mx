@@ -822,15 +822,7 @@
 			 width:137px;
 			 height:120px;
 		}
-
-	@media (min-width: 500px) {    	
-		#logo img 
-		{    	
-			display: none;	
-    		border: 1px solid #CDD;
-    		
-		}
-	}
+ 
 
 
 
