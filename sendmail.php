@@ -3,7 +3,7 @@
 	{
 
 		// Debes editar las próximas dos líneas de código de acuerdo con tus preferencias
-		$email_to = "goncove@gmail.com";
+		$email_to = "ceo.itsolutions.mx@gmail.com";
 		$email_subject = "Contacto desde itsolution.mx";
 
 		// Aquí se deberían validar los datos ingresados por el usuario
