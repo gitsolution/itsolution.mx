@@ -1,0 +1,200 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 176772  5336 ?        Ss   ene08   0:01 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    ene08   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    ene08   0:01 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   ene08   0:00 [kworker/0:0H]
+root         7  0.0  0.0      0     0 ?        S    ene08   0:08 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    ene08   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    ene08   0:00 [migration/0]
+root        10  0.0  0.0      0     0 ?        S    ene08   0:00 [watchdog/0]
+root        11  0.0  0.0      0     0 ?        S    ene08   0:00 [watchdog/1]
+root        12  0.0  0.0      0     0 ?        S    ene08   0:00 [migration/1]
+root        13  0.0  0.0      0     0 ?        S    ene08   0:01 [ksoftirqd/1]
+root        15  0.0  0.0      0     0 ?        S<   ene08   0:00 [kworker/1:0H]
+root        16  0.0  0.0      0     0 ?        S    ene08   0:00 [watchdog/2]
+root        17  0.0  0.0      0     0 ?        S    ene08   0:00 [migration/2]
+root        18  0.0  0.0      0     0 ?        S    ene08   0:01 [ksoftirqd/2]
+root        20  0.0  0.0      0     0 ?        S<   ene08   0:00 [kworker/2:0H]
+root        21  0.0  0.0      0     0 ?        S    ene08   0:00 [watchdog/3]
+root        22  0.0  0.0      0     0 ?        S    ene08   0:00 [migration/3]
+root        23  0.0  0.0      0     0 ?        S    ene08   0:00 [ksoftirqd/3]
+root        25  0.0  0.0      0     0 ?        S<   ene08   0:00 [kworker/3:0H]
+root        26  0.0  0.0      0     0 ?        S<   ene08   0:00 [khelper]
+root        27  0.0  0.0      0     0 ?        S    ene08   0:00 [kdevtmpfs]
+root        28  0.0  0.0      0     0 ?        S<   ene08   0:00 [netns]
+root        29  0.0  0.0      0     0 ?        S    ene08   0:00 [khungtaskd]
+root        30  0.0  0.0      0     0 ?        S<   ene08   0:00 [writeback]
+root        31  0.0  0.0      0     0 ?        SN   ene08   0:00 [ksmd]
+root        32  0.0  0.0      0     0 ?        SN   ene08   0:00 [khugepaged]
+root        33  0.0  0.0      0     0 ?        S<   ene08   0:00 [crypto]
+root        34  0.0  0.0      0     0 ?        S<   ene08   0:00 [kintegrityd]
+root        35  0.0  0.0      0     0 ?        S<   ene08   0:00 [bioset]
+root        36  0.0  0.0      0     0 ?        S<   ene08   0:00 [kblockd]
+root        38  0.0  0.0      0     0 ?        S    ene08   0:00 [kswapd0]
+root        39  0.0  0.0      0     0 ?        S    ene08   0:00 [fsnotify_mark]
+root        45  0.0  0.0      0     0 ?        S<   ene08   0:00 [kthrotld]
+root        47  0.0  0.0      0     0 ?        S<   ene08   0:00 [ipv6_addrconf]
+root        48  0.0  0.0      0     0 ?        S<   ene08   0:00 [deferwq]
+root        89  0.0  0.0      0     0 ?        S<   ene08   0:00 [acpi_thermal_pm]
+root        90  0.0  0.0      0     0 ?        S    ene08   0:00 [khubd]
+root        91  0.0  0.0      0     0 ?        S<   ene08   0:00 [ata_sff]
+root        95  0.0  0.0      0     0 ?        S    ene08   0:00 [scsi_eh_0]
+root        96  0.0  0.0      0     0 ?        S<   ene08   0:00 [scsi_tmf_0]
+root        97  0.0  0.0      0     0 ?        S    ene08   0:00 [scsi_eh_1]
+root        98  0.0  0.0      0     0 ?        S<   ene08   0:00 [scsi_tmf_1]
+root        99  0.0  0.0      0     0 ?        S    ene08   0:00 [scsi_eh_2]
+root       100  0.0  0.0      0     0 ?        S<   ene08   0:00 [scsi_tmf_2]
+root       101  0.0  0.0      0     0 ?        S    ene08   0:00 [scsi_eh_3]
+root       102  0.0  0.0      0     0 ?        S<   ene08   0:00 [scsi_tmf_3]
+root       111  0.0  0.0      0     0 ?        S<   ene08   0:00 [kworker/1:1H]
+root       112  0.0  0.0      0     0 ?        S<   ene08   0:00 [kworker/3:1H]
+root       113  0.0  0.0      0     0 ?        S<   ene08   0:00 [kworker/0:1H]
+root       114  0.0  0.0      0     0 ?        S<   ene08   0:00 [kworker/2:1H]
+root       135  0.0  0.0      0     0 ?        S    ene08   0:01 [jbd2/sda7-8]
+root       136  0.0  0.0      0     0 ?        S<   ene08   0:00 [ext4-rsv-conver]
+root       170  0.0  0.0      0     0 ?        S    ene08   0:00 [kauditd]
+root       180  0.0  0.0  41764  4036 ?        Ss   ene08   0:00 /lib/systemd/systemd-udevd
+root       188  0.0  0.0  41644  9480 ?        Ss   ene08   0:01 /lib/systemd/systemd-journald
+root       210  0.0  0.0      0     0 ?        S    ene08   0:00 [irq/17-smo8800]
+root       223  0.0  0.0      0     0 ?        S<   ene08   0:00 [kmemstick]
+root       224  0.0  0.0      0     0 ?        S<   ene08   0:00 [kpsmoused]
+root       229  0.0  0.0      0     0 ?        S<   ene08   0:00 [cfg80211]
+root       230  0.0  0.0      0     0 ?        S    ene08   1:05 [irq/62-iwlwifi]
+root       297  0.0  0.0      0     0 ?        S<   ene08   0:00 [kvm-irqfd-clean]
+root       307  0.0  0.0      0     0 ?        S<   ene08   0:00 [hd-audio1]
+root       312  0.0  0.0      0     0 ?        S<   ene08   0:00 [hd-audio0]
+systemd+   366  0.0  0.0 104156  2564 ?        Ssl  ene08   0:00 /lib/systemd/systemd-timesyncd
+root       477  0.0  0.0  37072  2660 ?        Ss   ene08   0:00 /sbin/rpcbind -w
+statd      486  0.0  0.0  37272  2912 ?        Ss   ene08   0:00 /sbin/rpc.statd
+root       491  0.0  0.0      0     0 ?        S<   ene08   0:00 [rpciod]
+root       493  0.0  0.0      0     0 ?        S<   ene08   0:00 [nfsiod]
+root       500  0.0  0.0  23348   204 ?        Ss   ene08   0:00 /usr/sbin/rpc.idmapd
+root       503  0.0  0.0  25764  3972 ?        Ss   ene08   0:00 /usr/lib/bluetooth/bluetoothd
+root       504  0.0  0.0 276184  6612 ?        Ssl  ene08   0:00 /usr/lib/accountsservice/accounts-daemon
+daemon     505  0.0  0.0  19012  1744 ?        Ss   ene08   0:00 /usr/sbin/atd -f
+root       507  0.0  0.0 430868 13408 ?        Ssl  ene08   0:07 /usr/sbin/NetworkManager --no-daemon
+root       509  0.0  0.0 336268  8004 ?        Ssl  ene08   0:00 /usr/sbin/ModemManager
+root       514  0.0  0.0  27492  2692 ?        Ss   ene08   0:00 /usr/sbin/cron -f
+root       516  0.0  0.0  28368  2908 ?        Ss   ene08   0:00 /lib/systemd/systemd-logind
+avahi      525  0.0  0.0  32220  2864 ?        Ss   ene08   0:00 avahi-daemon: running [hanna.local]
+message+   526  0.0  0.0  43628  4632 ?        Ss   ene08   0:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       550  0.0  0.0   4228    96 ?        Ss   ene08   0:00 /usr/sbin/minissdpd -i 0.0.0.0
+root       557  0.0  0.0 270180  5436 ?        Sl   ene08   0:01 /usr/lib/x86_64-linux-gnu/urfkill/urfkilld
+avahi      565  0.0  0.0  32092   248 ?        S    ene08   0:00 avahi-daemon: chroot helper
+root       584  0.0  0.0 258664  3324 ?        Ssl  ene08   0:00 /usr/sbin/rsyslogd -n
+root       587  0.0  0.0   4248  1668 ?        Ss   ene08   0:02 /usr/sbin/acpid
+root       589  0.0  0.0 281868  8360 ?        Ssl  ene08   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root       602  0.0  0.0  14408  1976 tty1     Ss+  ene08   0:00 /sbin/agetty --noclear tty1 linux
+root       615  0.0  0.0 440068  7840 ?        Ssl  ene08   0:00 /usr/sbin/gdm3
+root       626  0.0  0.0 2105796 6384 ?        Ssl  ene08   0:00 /usr/sbin/console-kit-daemon --no-daemon
+root       692  0.0  0.0  30988  6452 ?        Ss   ene08   0:01 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root       701  0.0  0.1 320540 28480 ?        Ss   ene08   0:01 /usr/sbin/apache2 -k start
+www-data   704  0.0  0.0 140240  4268 ?        S    ene08   0:00 /usr/sbin/apache2 -k start
+root       721  0.0  0.0  21836  3544 ?        S    ene08   0:00 /bin/bash /usr/bin/mysqld_safe
+www-data   935  0.0  0.0 328996 10752 ?        Sl   ene08   0:09 /usr/sbin/apache2 -k start
+www-data   939  0.0  0.0 328996 10752 ?        Sl   ene08   0:09 /usr/sbin/apache2 -k start
+www-data   941  0.0  0.0 328996 15052 ?        Sl   ene08   0:09 /usr/sbin/apache2 -k start
+www-data   943  0.0  0.0 328996 10752 ?        Sl   ene08   0:09 /usr/sbin/apache2 -k start
+mysql      947  0.0  0.6 928984 106576 ?       Sl   ene08   0:28 /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --plugin-dir=/usr/lib/mysql/plugin --user=mysql --skip-log-error --pid-file=/var/run/mysqld/mysqld.pid --socket=/var/run/mysqld/mysqld.sock --port=3306
+root       948  0.0  0.0  23712  2412 ?        S    ene08   0:00 logger -t mysqld -p daemon.error
+Debian-+  1361  0.0  0.0  53224  3180 ?        Ss   ene08   0:00 /usr/sbin/exim4 -bd -q30m
+root      1483  1.2  0.3 305856 55404 tty7     Rs+  ene08  16:42 /usr/bin/Xorg :0 -novtswitch -background none -noreset -verbose 3 -auth /var/run/gdm3/auth-for-Debian-gdm-jBIaNC/database -seat seat0 -nolisten tcp vt7
+Debian-+  1539  0.0  0.0  35780  3964 ?        Ss   ene08   0:00 /lib/systemd/systemd --user
+Debian-+  1540  0.0  0.0  58624  2256 ?        S    ene08   0:00 (sd-pam)  
+root      1588  0.0  0.0 238832  8824 ?        Ssl  ene08   0:01 /usr/lib/upower/upowerd
+colord    1612  0.0  0.0 308308 13340 ?        Ssl  ene08   0:00 /usr/lib/colord/colord
+Debian-+  1622  0.0  0.0 435288  9636 ?        S<l  ene08   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+rtkit     1624  0.0  0.0 168772  2348 ?        SNsl ene08   0:00 /usr/lib/rtkit/rtkit-daemon
+root      1656  0.0  0.0 381980 15220 ?        Ssl  ene08   0:03 /usr/lib/packagekit/packagekitd
+root      1752  0.0  0.0 396840  8088 ?        Sl   ene08   0:00 gdm-session-worker [pam/gdm-password]
+romanal+  1756  0.0  0.0  35780  3976 ?        Ss   ene08   0:00 /lib/systemd/systemd --user
+romanal+  1757  0.0  0.0  59140  2276 ?        S    ene08   0:00 (sd-pam)  
+romanal+  1761  0.0  0.0 431412  9300 ?        SLl  ene08   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+romanal+  1764  0.0  0.0 549772 11868 ?        Ssl  ene08   0:00 x-session-manager
+romanal+  1804  0.0  0.0  10688   340 ?        Ss   ene08   0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session x-session-manager
+romanal+  1807  0.0  0.0  24364  1912 ?        S    ene08   0:00 /usr/bin/dbus-launch --exit-with-session x-session-manager
+romanal+  1808  0.0  0.0  43300  3676 ?        Ss   ene08   0:01 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+romanal+  1811  0.0  0.0 337688  5600 ?        Sl   ene08   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+romanal+  1815  0.0  0.0  42668  3896 ?        S    ene08   0:05 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+romanal+  1818  0.0  0.0 125204  4848 ?        Sl   ene08   0:05 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+romanal+  1825  0.0  0.0 214532  6908 ?        Sl   ene08   0:00 /usr/lib/gvfs/gvfsd
+romanal+  1829  0.0  0.0 359664  6360 ?        Sl   ene08   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1001/gvfs -f -o big_writes
+romanal+  1842  0.0  0.2 1031984 37568 ?       Sl   ene08   0:05 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+romanal+  1856  0.0  0.0 441500 10576 ?        S<l  ene08   1:20 /usr/bin/pulseaudio --start
+romanal+  1865  0.0  0.0   4328   108 ?        S    ene08   0:00 /bin/sh /usr/bin/start-pulseaudio-x11
+romanal+  1866  0.0  0.0  20760  4820 ?        S    ene08   0:00 /usr/bin/xprop -root -spy
+romanal+  1868  0.0  0.0 455816  9628 ?        Sl   ene08   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      1870  0.0  0.0 435360  7804 ?        Ssl  ene08   0:07 /usr/lib/udisks2/udisksd --no-debug
+romanal+  1879  0.0  0.0 211224  6248 ?        Sl   ene08   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+romanal+  1883  0.0  0.0 304940  7716 ?        Sl   ene08   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+romanal+  1888  0.0  0.0 220304  6456 ?        Sl   ene08   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+romanal+  1892  0.0  0.0 207396  6196 ?        Sl   ene08   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+romanal+  1895  0.0  0.1 644076 26480 ?        Sl   ene08   0:01 /usr/lib/gnome-online-accounts/goa-daemon
+romanal+  1901  0.0  0.0 308196 10640 ?        Sl   ene08   0:02 /usr/lib/telepathy/mission-control-5
+romanal+  1903  0.6  1.6 1892268 270980 ?      Rl   ene08   9:10 /usr/bin/gnome-shell
+romanal+  1912  0.0  0.0 393148 10080 ?        Sl   ene08   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+romanal+  1923  0.0  0.0 534320 14172 ?        Sl   ene08   0:00 /usr/lib/gnome-shell/gnome-shell-calendar-server
+romanal+  1927  0.0  0.1 804372 20348 ?        SLl  ene08   0:00 /usr/lib/evolution/evolution-source-registry
+romanal+  1939  0.0  0.0 492460 13552 ?        Sl   ene08   0:02 zeitgeist-datahub
+romanal+  1945  0.0  0.0 362932  7824 ?        Sl   ene08   0:00 /usr/bin/zeitgeist-daemon
+romanal+  1946  0.0  0.1 528384 27544 ?        Sl   ene08   0:05 nm-applet
+romanal+  1948  0.0  0.1 519048 21268 ?        SNl  ene08   0:05 /usr/lib/tracker/tracker-miner-fs
+romanal+  1949  0.0  0.0 308556 10508 ?        SNl  ene08   0:00 /usr/lib/tracker/tracker-miner-user-guides
+romanal+  1952  0.0  0.2 999072 35664 ?        SNl  ene08   0:03 /usr/lib/tracker/tracker-extract
+romanal+  1955  0.0  0.1 469548 23160 ?        Sl   ene08   0:01 /usr/lib/tracker/tracker-store
+romanal+  1956  0.0  0.4 436032 67052 ?        Ss   ene08   0:00 python /usr/bin/hp-systray -x
+romanal+  1957  0.0  0.1 229836 23032 ?        Sl   ene08   0:00 /usr/bin/python /usr/share/system-config-printer/applet.py
+romanal+  1958  0.0  0.2 810992 43940 ?        Sl   ene08   0:00 /usr/lib/evolution/3.12/evolution-alarm-notify
+romanal+  1974  0.0  0.4 1133072 66312 ?       Sl   ene08   0:00 /usr/lib/evolution/evolution-calendar-factory
+romanal+  1979  0.0  0.0 265732 15932 ?        Sl   ene08   0:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+romanal+  1986  0.0  0.0 308932 11512 ?        SNl  ene08   0:00 /usr/lib/tracker/tracker-miner-apps
+romanal+  2000  0.0  0.0  52204  5492 ?        S    ene08   0:00 /usr/lib/x86_64-linux-gnu/gconf/gconfd-2
+romanal+  2002  0.0  0.0   5956   728 ?        S    ene08   0:00 /bin/cat
+romanal+  2014  0.0  0.1 153168 19244 ?        S    ene08   0:03 python /usr/bin/hp-systray -x
+romanal+  2015  0.0  0.0 124484 14568 ?        S    ene08   0:01 python /usr/bin/hp-systray -x
+romanal+  2062  0.0  0.0 135728  6700 ?        Sl   ene08   0:00 /usr/lib/gvfs/gvfsd-metadata
+romanal+  2089  0.0  0.1 425492 30716 ?        Sl   ene08   0:07 /usr/lib/gnome-terminal/gnome-terminal-server
+romanal+  2183  0.0  0.0  14684  1792 ?        S    ene08   0:00 gnome-pty-helper
+romanal+  2197  0.0  0.0  24088  5984 pts/0    Ss+  ene08   0:00 bash
+romanal+  2230  0.0  0.0 288264  6260 ?        Sl   ene08   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+romanal+  2314 13.5  7.0 3147580 1146196 ?     Sl   ene08 187:24 iceweasel
+www-data  2695  0.0  0.0 328996 15104 ?        Sl   ene08   0:09 /usr/sbin/apache2 -k start
+root      2703  0.0  0.0  24364  1824 ?        S    ene08   0:00 dbus-launch --autolaunch=e5fa06c137a4489888a03190dedb0072 --binary-syntax --close-stderr
+root      2704  0.0  0.0  42116   368 ?        Ss   ene08   0:00 /usr/bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+romanal+  2716  0.0  0.0  24700  6660 pts/1    Ss+  ene08   0:00 bash
+romanal+  2722  0.1  0.5 1851104 96420 ?       Ssl  ene08   2:38 sublime_text
+romanal+  2732  0.0  0.0 111724 13656 ?        Sl   ene08   0:02 /opt/sublime_text_3/plugin_host 2722
+romanal+  2807  0.0  0.3 965456 62032 ?        Sl   ene08   0:23 /usr/bin/nautilus --gapplication-service
+romanal+  2813  0.0  0.0 368732  7704 ?        Sl   ene08   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/1
+romanal+  4312  0.0  0.0 178424  4660 ?        Sl   ene08   0:00 /usr/lib/dconf/dconf-service
+www-data  4897  0.0  0.0 328996 10756 ?        Sl   ene08   0:07 /usr/sbin/apache2 -k start
+www-data  4905  0.0  0.0 328996 10756 ?        Sl   ene08   0:07 /usr/sbin/apache2 -k start
+www-data  4907  0.0  0.0 328996 10756 ?        Sl   ene08   0:07 /usr/sbin/apache2 -k start
+www-data  4909  0.0  0.0 328980 10712 ?        Sl   ene08   0:07 /usr/sbin/apache2 -k start
+root      5128  0.0  0.0 248964  6984 ?        Sl   ene08   0:00 gdm-session-worker [pam/gdm-password]
+root      5137  0.0  0.0 248964  6984 ?        Sl   ene08   0:00 gdm-session-worker [pam/gdm-password]
+www-data  5741  0.0  0.0 328996 10756 ?        Sl   ene08   0:05 /usr/sbin/apache2 -k start
+root      6157  0.0  0.0 248964  6960 ?        Sl   ene08   0:00 gdm-session-worker [pam/gdm-password]
+root      6593  0.0  0.0  11460  3068 ?        Ss   ene08   0:01 /sbin/mount.ntfs /dev/sda5 /media/romanalbores/OS -o rw,nodev,nosuid,uid=1001,gid=1001,dmask=0077,fmask=0177,uhelper=udisks2
+root      7471  0.0  0.0      0     0 ?        S    10:15   0:00 [irq/63-mei_me]
+root      7473  0.0  0.0      0     0 ?        S<   10:15   0:00 [kworker/u17:0]
+root      7474  0.0  0.0      0     0 ?        S<   10:15   0:00 [hci0]
+root      7475  0.0  0.0      0     0 ?        S<   10:15   0:00 [hci0]
+root      7479  0.0  0.0      0     0 ?        S<   10:15   0:00 [kworker/u17:2]
+root      9092  0.0  0.0      0     0 ?        S    11:53   0:00 [kworker/1:0]
+root      9416  0.0  0.0      0     0 ?        S    12:41   0:00 [kworker/0:0]
+root      9698  0.0  0.0      0     0 ?        S    13:31   0:00 [kworker/3:2]
+root      9700  0.0  0.0      0     0 ?        S    13:35   0:00 [kworker/1:2]
+root      9742  0.0  0.0  25392 10172 ?        S    13:36   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-wlan0.pid -lf /var/lib/NetworkManager/dhclient-4f1e5127-e145-4ed9-9ae0-56bd742591ae-wlan0.lease -cf /var/lib/NetworkManager/dhclient-wlan0.conf wlan0
+root     10054  0.0  0.0      0     0 ?        S    14:01   0:00 [kworker/2:2]
+romanal+ 10082  0.0  0.0 297288  7400 ?        Sl   14:05   0:00 /usr/lib/gvfs/gvfsd-network --spawner :1.5 /org/gtk/gvfs/exec_spaw/2
+romanal+ 10096  0.0  0.0 297016  6864 ?        Sl   14:05   0:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.5 /org/gtk/gvfs/exec_spaw/4
+romanal+ 10158  0.7  0.7 742304 116696 ?       Sl   14:08   0:10 bluefish /var/www/html/websofom/index.html
+root     10232  0.0  0.0      0     0 ?        S    14:11   0:00 [kworker/u16:1]
+root     10419  0.0  0.0      0     0 ?        S    14:23   0:00 [kworker/u16:0]
+root     10489  0.0  0.0      0     0 ?        S    14:27   0:00 [kworker/0:2]
+root     10529  0.0  0.0      0     0 ?        S    14:28   0:00 [kworker/3:0]
+root     10530  0.0  0.0      0     0 ?        S    14:28   0:00 [kworker/2:0]
+root     10545  0.0  0.0      0     0 ?        S    14:29   0:00 [kworker/u16:2]
+romanal+ 10605  0.0  0.0  23712  5648 pts/2    Ss   14:32   0:00 bash
+romanal+ 10631  0.0  0.0  19092  2484 pts/2    R+   14:34   0:00 ps -aux
